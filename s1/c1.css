@@ -1,0 +1,93 @@
+.vscode-dark a {
+    color: #61AFEF;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #98d479;
+}
+
+
+.vscode-dark h1,
+.vscode-dark h2,
+.vscode-dark h3,
+.vscode-dark h4,
+.vscode-dark h5,
+.vscode-dark h6 {
+    font-weight: 600;
+    color: #E06C75;
+}
+
+.vscode-dark,
+.vscode-dark pre code {
+    color: #ABB2BF;
+}
+
+.vscode-dark code {
+    color: #90C378;
+}
+
+.vscode-dark pre:not(.hljs),
+.vscode-dark code>div {
+    background-color: #2C323C;
+}
+
+.vscode-dark table>thead>tr>th {
+    /* border-color: #2C323C; */
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table>tbody>tr+tr>td {
+    /* border-color: #2C323C; */
+}
+
+.vscode-dark blockquote {
+    color: #6e7685;
+    background: transparent;
+    border: none;
+    border-left: 3px solid rgba(104, 255, 137, 0.315);
+}
+
+table {
+    display: block;
+    width: 100%;
+    overflow: auto;
+}
+
+table th {
+    font-weight: bold;
+}
+
+table th,
+table td {
+    padding: 6px 13px;
+    border: 1px solid #2C323C;
+}
+
+table tr {
+    /* background-color: #fff; */
+    border-top: 1px solid #2C323C;
+}
+
+.vscode-light table>thead>tr>th {
+    border-color: #2C323C;
+    border-bottom: 1px solid #5C6370;
+}
+
+.vscode-dark table>thead>tr>th {
+    border-color: #2C323C;
+    border-bottom: 1px solid #5C6370;
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table>tbody>tr+tr>td {
+    border-color: #2C323C;
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table>tbody>tr+tr>td {
+    border-color: #2C323C;
+}
